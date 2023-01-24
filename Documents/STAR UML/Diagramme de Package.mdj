@@ -1,0 +1,632 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGF4DsLxA7qego=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLPackageDiagram",
+					"_id": "AAAAAAGF4DsLxA7rJeI=",
+					"_parent": {
+						"$ref": "AAAAAAGF4DsLxA7qego="
+					},
+					"name": "PackageDiagram1",
+					"ownedViews": [
+						{
+							"_type": "UMLPackageView",
+							"_id": "AAAAAAGF4Dsa8w7xRfU=",
+							"_parent": {
+								"$ref": "AAAAAAGF4DsLxA7rJeI="
+							},
+							"model": {
+								"$ref": "AAAAAAGF4Dsa8w7vjuc="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGF4Dsa8w7y5ZM=",
+									"_parent": {
+										"$ref": "AAAAAAGF4Dsa8w7xRfU="
+									},
+									"model": {
+										"$ref": "AAAAAAGF4Dsa8w7vjuc="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4Dsa8w7zyBs=",
+											"_parent": {
+												"$ref": "AAAAAAGF4Dsa8w7y5ZM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": -48,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4Dsa8w7071Q=",
+											"_parent": {
+												"$ref": "AAAAAAGF4Dsa8w7y5ZM="
+											},
+											"font": "Arial;13;1",
+											"left": 133,
+											"top": 166,
+											"width": 622,
+											"height": 13,
+											"text": "Reservation d'evenements en Ligne"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4Dsa8w71Ny4=",
+											"_parent": {
+												"$ref": "AAAAAAGF4Dsa8w7y5ZM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": -48,
+											"width": 80.9072265625,
+											"height": 13,
+											"text": "(from Model1)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4Dsa8w72E5A=",
+											"_parent": {
+												"$ref": "AAAAAAGF4Dsa8w7y5ZM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": -48,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 128,
+									"top": 159,
+									"width": 632,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGF4Dsa8w7zyBs="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGF4Dsa8w7071Q="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGF4Dsa8w71Ny4="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGF4Dsa8w72E5A="
+									}
+								}
+							],
+							"containedViews": [
+								{
+									"$ref": "AAAAAAGF4DtB6w8LKf0="
+								},
+								{
+									"$ref": "AAAAAAGF4DuCXw8m24w="
+								},
+								{
+									"$ref": "AAAAAAGF4FD+oYW8aZ8="
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 128,
+							"top": 144,
+							"width": 632,
+							"height": 368,
+							"nameCompartment": {
+								"$ref": "AAAAAAGF4Dsa8w7y5ZM="
+							}
+						},
+						{
+							"_type": "UMLPackageView",
+							"_id": "AAAAAAGF4DtB6w8LKf0=",
+							"_parent": {
+								"$ref": "AAAAAAGF4DsLxA7rJeI="
+							},
+							"model": {
+								"$ref": "AAAAAAGF4DtB6w8JcWs="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGF4DtB6w8MG8E=",
+									"_parent": {
+										"$ref": "AAAAAAGF4DtB6w8LKf0="
+									},
+									"model": {
+										"$ref": "AAAAAAGF4DtB6w8JcWs="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4DtB6w8Nyr8=",
+											"_parent": {
+												"$ref": "AAAAAAGF4DtB6w8MG8E="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 96,
+											"top": -160,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4DtB6w8OgPo=",
+											"_parent": {
+												"$ref": "AAAAAAGF4DtB6w8MG8E="
+											},
+											"font": "Arial;13;1",
+											"left": 373,
+											"top": 262,
+											"width": 148.82080078125,
+											"height": 13,
+											"text": "Gestion des Utilisateurs"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4DtB6w8P5/I=",
+											"_parent": {
+												"$ref": "AAAAAAGF4DtB6w8MG8E="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 96,
+											"top": -160,
+											"width": 245.2734375,
+											"height": 13,
+											"text": "(from Reservation d'evenements en Ligne)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4DtB6w8Qg7M=",
+											"_parent": {
+												"$ref": "AAAAAAGF4DtB6w8MG8E="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 96,
+											"top": -160,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 368,
+									"top": 255,
+									"width": 158.82080078125,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGF4DtB6w8Nyr8="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGF4DtB6w8OgPo="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGF4DtB6w8P5/I="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGF4DtB6w8Qg7M="
+									}
+								}
+							],
+							"containerView": {
+								"$ref": "AAAAAAGF4Dsa8w7xRfU="
+							},
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 368,
+							"top": 240,
+							"width": 158.82080078125,
+							"height": 81,
+							"nameCompartment": {
+								"$ref": "AAAAAAGF4DtB6w8MG8E="
+							}
+						},
+						{
+							"_type": "UMLPackageView",
+							"_id": "AAAAAAGF4DuCXw8m24w=",
+							"_parent": {
+								"$ref": "AAAAAAGF4DsLxA7rJeI="
+							},
+							"model": {
+								"$ref": "AAAAAAGF4DuCXg8kVgg="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGF4DuCXw8n4m4=",
+									"_parent": {
+										"$ref": "AAAAAAGF4DuCXw8m24w="
+									},
+									"model": {
+										"$ref": "AAAAAAGF4DuCXg8kVgg="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4DuCXw8ozdc=",
+											"_parent": {
+												"$ref": "AAAAAAGF4DuCXw8n4m4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 32,
+											"top": 184,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4DuCXw8pgXw=",
+											"_parent": {
+												"$ref": "AAAAAAGF4DuCXw8n4m4="
+											},
+											"font": "Arial;13;1",
+											"left": 525,
+											"top": 398,
+											"width": 146.5859375,
+											"height": 13,
+											"text": "Gestion des Tickets"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4DuCXw8qD10=",
+											"_parent": {
+												"$ref": "AAAAAAGF4DuCXw8n4m4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 32,
+											"top": 184,
+											"width": 245.2734375,
+											"height": 13,
+											"text": "(from Reservation d'evenements en Ligne)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4DuCXw8reFQ=",
+											"_parent": {
+												"$ref": "AAAAAAGF4DuCXw8n4m4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 32,
+											"top": 184,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 520,
+									"top": 391,
+									"width": 156.5859375,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGF4DuCXw8ozdc="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGF4DuCXw8pgXw="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGF4DuCXw8qD10="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGF4DuCXw8reFQ="
+									}
+								}
+							],
+							"containerView": {
+								"$ref": "AAAAAAGF4Dsa8w7xRfU="
+							},
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 520,
+							"top": 376,
+							"width": 156.5859375,
+							"height": 73,
+							"nameCompartment": {
+								"$ref": "AAAAAAGF4DuCXw8n4m4="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "AAAAAAGF4FXNt4Xls0o=",
+							"_parent": {
+								"$ref": "AAAAAAGF4DsLxA7rJeI="
+							},
+							"model": {
+								"$ref": "AAAAAAGF4FXNt4Xjxd8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGF4FXNt4XmE3E=",
+									"_parent": {
+										"$ref": "AAAAAAGF4FXNt4Xls0o="
+									},
+									"model": {
+										"$ref": "AAAAAAGF4FXNt4Xjxd8="
+									},
+									"font": "Arial;13;0",
+									"left": 429,
+									"top": 425,
+									"width": 48.7880859375,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGF4FXNt4Xls0o="
+									},
+									"edgePosition": 1,
+									"text": "+include"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGF4FXNt4Xn0L0=",
+									"_parent": {
+										"$ref": "AAAAAAGF4FXNt4Xls0o="
+									},
+									"model": {
+										"$ref": "AAAAAAGF4FXNt4Xjxd8="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 453,
+									"top": 440,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGF4FXNt4Xls0o="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGF4FXNt4Xob0A=",
+									"_parent": {
+										"$ref": "AAAAAAGF4FXNt4Xls0o="
+									},
+									"model": {
+										"$ref": "AAAAAAGF4FXNt4Xjxd8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 454,
+									"top": 395,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGF4FXNt4Xls0o="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGF4FD+oYW8aZ8="
+							},
+							"tail": {
+								"$ref": "AAAAAAGF4DuCXw8m24w="
+							},
+							"points": "520:416;388:416",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGF4FXNt4XmE3E="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGF4FXNt4Xn0L0="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGF4FXNt4Xob0A="
+							}
+						},
+						{
+							"_type": "UMLPackageView",
+							"_id": "AAAAAAGF4FD+oYW8aZ8=",
+							"_parent": {
+								"$ref": "AAAAAAGF4DsLxA7rJeI="
+							},
+							"model": {
+								"$ref": "AAAAAAGF4FD+oIW6iZI="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGF4FD+oYW950Y=",
+									"_parent": {
+										"$ref": "AAAAAAGF4FD+oYW8aZ8="
+									},
+									"model": {
+										"$ref": "AAAAAAGF4FD+oIW6iZI="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4FD+oYW+XgU=",
+											"_parent": {
+												"$ref": "AAAAAAGF4FD+oYW950Y="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -512,
+											"top": 368,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4FD+oYW/yDM=",
+											"_parent": {
+												"$ref": "AAAAAAGF4FD+oYW950Y="
+											},
+											"font": "Arial;13;1",
+											"left": 229,
+											"top": 398,
+											"width": 154.60986328125,
+											"height": 13,
+											"text": "Gestion des Evenements"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4FD+oYXAo10=",
+											"_parent": {
+												"$ref": "AAAAAAGF4FD+oYW950Y="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -512,
+											"top": 368,
+											"width": 245.2734375,
+											"height": 13,
+											"text": "(from Reservation d'evenements en Ligne)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGF4FD+oYXBj2A=",
+											"_parent": {
+												"$ref": "AAAAAAGF4FD+oYW950Y="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -512,
+											"top": 368,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 224,
+									"top": 391,
+									"width": 164.60986328125,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGF4FD+oYW+XgU="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGF4FD+oYW/yDM="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGF4FD+oYXAo10="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGF4FD+oYXBj2A="
+									}
+								}
+							],
+							"containerView": {
+								"$ref": "AAAAAAGF4Dsa8w7xRfU="
+							},
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 224,
+							"top": 376,
+							"width": 164.60986328125,
+							"height": 73,
+							"nameCompartment": {
+								"$ref": "AAAAAAGF4FD+oYW950Y="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAGF4Dsa8w7vjuc=",
+					"_parent": {
+						"$ref": "AAAAAAGF4DsLxA7qego="
+					},
+					"name": "Reservation d'evenements en Ligne",
+					"ownedElements": [
+						{
+							"_type": "UMLPackage",
+							"_id": "AAAAAAGF4DtB6w8JcWs=",
+							"_parent": {
+								"$ref": "AAAAAAGF4Dsa8w7vjuc="
+							},
+							"name": "Gestion des Utilisateurs"
+						},
+						{
+							"_type": "UMLPackage",
+							"_id": "AAAAAAGF4DuCXg8kVgg=",
+							"_parent": {
+								"$ref": "AAAAAAGF4Dsa8w7vjuc="
+							},
+							"name": "Gestion des Tickets",
+							"ownedElements": [
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGF4DzCQQ9DC5I=",
+									"_parent": {
+										"$ref": "AAAAAAGF4DuCXg8kVgg="
+									},
+									"name": "include",
+									"source": {
+										"$ref": "AAAAAAGF4DuCXg8kVgg="
+									},
+									"target": {
+										"$ref": "AAAAAAGF4DtB6w8JcWs="
+									}
+								},
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGF4FXNt4Xjxd8=",
+									"_parent": {
+										"$ref": "AAAAAAGF4DuCXg8kVgg="
+									},
+									"name": "include",
+									"source": {
+										"$ref": "AAAAAAGF4DuCXg8kVgg="
+									},
+									"target": {
+										"$ref": "AAAAAAGF4FD+oIW6iZI="
+									}
+								}
+							]
+						},
+						{
+							"_type": "UMLPackage",
+							"_id": "AAAAAAGF4FD+oIW6iZI=",
+							"_parent": {
+								"$ref": "AAAAAAGF4Dsa8w7vjuc="
+							},
+							"name": "Gestion des Evenements"
+						}
+					]
+				}
+			]
+		}
+	]
+}
