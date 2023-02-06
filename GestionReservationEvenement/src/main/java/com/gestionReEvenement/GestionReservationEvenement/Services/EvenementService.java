@@ -13,6 +13,9 @@ public interface EvenementService {
 	public Evenement saveEvenement(Evenement evenement);
 	
 	public Evenement updateEvenement(Evenement evenement);
+
+	//Jack dev
+	public Evenement updateAnEvenement(Long id, Evenement evenement);
 	
 	public String deleteEvenementById(Long id);
 	
