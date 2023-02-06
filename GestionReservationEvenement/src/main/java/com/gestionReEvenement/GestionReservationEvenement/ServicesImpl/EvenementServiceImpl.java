@@ -29,6 +29,22 @@ public class EvenementServiceImpl implements EvenementService{
 	}
 
 	@Override
+	public Evenement updateAnEvenement(Long id, Evenement evenement) {
+		Evenement monEvenement = evenementRepository.findById(id).orElseThrow(()-> new RuntimeException(String
+				.format("Evenement %s inexistant", id)));
+		if (evenement.getDateEvenement()!=null) monEvenement.setDateEvenement(evenement.getDateEvenement());
+		if (evenement.getLieuEvenement()!=null) monEvenement.setLieuEvenement(evenement.getLieuEvenement());
+		if (evenement.getTypeEvenement()!=null) monEvenement.setTypeEvenement(evenement.getTypeEvenement());
+		if (evenement.getDescriptionEvenement()!=null) monEvenement.setDescriptionEvenement(evenement.getDescriptionEvenement());
+		if (evenement.getHeureDebut()!=null) monEvenement.setHeureDebut(evenement.getHeureDebut());
+		if (evenement.getHeureFin()!=null) monEvenement.setHeureFin(evenement.getHeureFin());
+		if (evenement.getNomEvenement()!=null) monEvenement.setNomEvenement(evenement.getNomEvenement());
+
+		evenementRepository.save(monEvenement);
+		return monEvenement;
+	}
+
+	@Override
 	public String deleteEvenementById(Long id) {
 		// TODO Auto-generated method stub
 		this.evenementRepository.deleteById(id);

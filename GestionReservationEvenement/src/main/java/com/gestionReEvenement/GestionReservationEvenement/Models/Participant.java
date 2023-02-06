@@ -1,6 +1,6 @@
 package com.gestionReEvenement.GestionReservationEvenement.Models;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "Participant")

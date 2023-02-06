@@ -3,16 +3,8 @@ package com.gestionReEvenement.GestionReservationEvenement.Models;
 import java.util.Set;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import jakarta.persistence.Column;
-import jakarta.persistence.DiscriminatorColumn;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Inheritance;
-import jakarta.persistence.InheritanceType;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
+
+import javax.persistence.*;
 
 @Entity
 @Inheritance(strategy=InheritanceType.JOINED)
@@ -53,7 +45,7 @@ public class Personne {
     
 
     /*Ajout de la relation OneToMany entre Personne et Ticket*/
-    @OneToMany(mappedBy = "personne", fetch = jakarta.persistence.FetchType.LAZY)
+    @OneToMany(mappedBy = "personne", fetch = javax.persistence.FetchType.LAZY)
 	@JsonManagedReference(value="personne-ticket")
     private Set<Ticket> tickets;
 
@@ -197,8 +189,5 @@ public class Personne {
 				+ nationalite + ", sexe=" + sexe + ", numtel=" + numtel + ", mail=" + mail + ", adresse=" + adresse
 				+ ", MotDePasse=" + MotDePasse + ", tickets=" + tickets + "]";
 	}
-    
-    
-    
 
 }
